@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather-app</title>
+    <title>Weather app</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <section class="top-banner">
+        <div class="container">
+          <h1 class="heading">Weather App</h1>
+          <form>
+            <input type="text" placeholder="city name" autofocus>
+            <button type="submit">SUBMIT</button>
+            <span class="error"></span>
+          </form>
+        </div>
+      </section>
+      <section class="second-section">
+        <div class="container">
+          <ul class="cities"></ul>
+        </div>
+      </section>
+      <script src="./main.js"></script>
+    </body>
 </body>
 </html>
