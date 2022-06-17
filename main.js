@@ -4,7 +4,7 @@ const input = document.querySelector(".top-banner input");
 const error = document.querySelector(".top-banner .error");
 const list = document.querySelector(".second-section .cities");
 
-
+ //h
 
 const KeyAPI_weather = "1b7034a6b1e59f59f7244f72274de759";
 
