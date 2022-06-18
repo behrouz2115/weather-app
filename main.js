@@ -2,7 +2,7 @@
 const form = document.querySelector(".top-banner form");
 const input = document.querySelector(".top-banner input");
 const error = document.querySelector(".top-banner .error");
-const list = document.querySelector(".second-section .cities");
+const list = document.querySelector(".second-section .cities");5
 
  //h
 
