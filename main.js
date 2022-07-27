@@ -32,7 +32,7 @@ form.addEventListener("submit", e => {
                 </figure>
                 `;
             li.innerHTML = markup;
-            list.appendChild(li);
+            list.appendChild(li);   
             error.innerText = ""
         })
         .catch(() => {
